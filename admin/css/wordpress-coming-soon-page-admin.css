@@ -1,0 +1,105 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ #tabs {overflow: hidden;width: 100%;margin: 0;padding: 0;list-style: none;font:12px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif}
+#tabs li {float: left;margin: 0 .5em 0 0;}
+#tabs a {position: relative;background: #aaaaaa;padding: 0.7em 3em;float: left;	text-decoration: none;color: #fff;font-size: 13px;font-weight: bold;}
+#tabs a:hover, #tabs a:hover::after, #tabs a:focus, #tabs a:focus::after {background: #aaaaaa;color: #000;}
+#tabs a:focus {outline: 0;}
+#tabs a::after {content: '';position: absolute;	z-index: 1;top: 0;right: -.5em;	bottom: 0;	width: 1em;background: #aaaaaa;}
+#tabs #wcsp_current a {background: #399ecd;	z-index: 3;color: #fff;}
+#tabs #wcsp_current a::after {background: #399ecd;z-index: 3;color: #fff;}
+#mwb_content {background: #fff;	padding: 0px;position: relative;z-index: 2;}
+wcsp_vm_wrapper{
+  text-align: center;
+}
+.mwb_picture
+{
+  height:40px;
+  width:40px;
+
+}
+.wcsp_vm_wrapper .wcsp_vm_gallery{
+  padding: 30px;
+  width: 40%;
+  display: inline-block;
+}
+.wcsp_vm_wrapper .wcsp_vm_gallery img{
+  width: 100%;
+}
+.wcsp_vm_wrapper .wcsp_vm_gallery figcaption {
+ margin-left: 25px;
+ text-align: center;
+ padding-bottom: 12px;
+ padding-top: 12px;
+
+}
+
+.wcsp_vm_wrapper .wcsp_vm_gallery figcaption h1{
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  color: #000;
+  font-weight: bold;
+}
+
+.wcsp_vm_wrapper .wcsp_vm_gallery figure {
+  border: 1px solid #bababa;
+}
+
+.wcsp_vm_wrapper .wcsp_vm_gallery .wcsp_vm_btn{
+  background: #fff none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 0;
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  left: 0;
+  margin: 0 auto;
+  padding: 6px 18px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s linear 0s;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.wcsp_vm_wrapper .wcsp_vm_gallery .wcsp_vm_btn:hover{
+  background: transparent;
+  border: 0 none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 18px;
+  border: 1px solid #fff;
+  transition: 0.3s linear all;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.wcsp_vm_wrapper .wcsp_vm_gallery .wcsp_vm-image-wrap {
+  position: relative;
+  transition: 0.3s linear all;
+}
+
+.wcsp_vm_overlay {
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s linear all;
+}
+
+.wcsp_vm_wrapper .wcsp_vm_gallery .wcsp_vm-image-wrap:hover .wcsp_vm_overlay{
+ opacity: 1;
+ transition: 0.3s linear all;
+}
+.wcsp_border{
+  border:10px solid blue;
+}

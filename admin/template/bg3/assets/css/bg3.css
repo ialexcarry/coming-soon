@@ -1,0 +1,163 @@
+body,h2,h4,p{
+	text-align:center;
+	padding:0px;
+	margin:0px;
+  font-family:sans-serif;
+}
+ #wcsp-wrapper {
+  background-image: url('../images/1346x928-01.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height:100vh;
+
+  padding-bottom:80px;
+}
+
+ .wcsp_picture
+{
+  height:40px;
+  width:40px;
+  display:inline;
+}
+.wcsp_first_heading {
+  color: #2e3335;
+  padding-top: 20px;
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+  font-weight: normal;
+
+}
+.wcsp_para {
+  font-size: 65px;
+  color: #196b62;
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'Niconne', cursive;
+}
+.wcsp_email_section {
+  padding-top: 10px;
+}
+/*.wcsp_email {
+	border: 1px solid #caae38;
+	padding: 10px 30px;
+	background: transparent;
+	box-shadow: 2px 2px 16px #756f52;
+	color:white;
+}*/
+
+.wcsp_email {
+  border: 1px solid #caae38;
+  padding: 7px 17px;
+  background: transparent;
+  box-shadow: 2px 2px 5px #72681c;
+  color: #399fcf;
+  font-size: 15px;
+  text-shadow: 0px 1px 0px #211b1b;
+  border-radius: 0px 214px 0px 199px;
+}
+.wcsp_submit {
+  padding: 7px 23px;
+  background: #409970;
+  border: 0;
+  color: white;
+  font-weight: normal;
+  box-shadow: 2px 2px 7px #3b504a;
+  border-radius: 0px 148px 0px 147px;
+  text-shadow: 1px 1px 1px #211b1b;
+  font-size: 14px;
+}
+
+
+ countdown timer /
+
+ #wcsp-clockdiv{
+	font-family: sans-serif;
+	color: #ffffff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 20px;
+	padding: 25px;
+}
+
+#wcsp-clockdiv > div {
+  padding: 5px;
+  border-radius: 3px;
+  /* background: linear-gradient(rgba(0, 0 ,0 , .4), rgba(0, 0 ,0 , .4)); */
+  display: inline-block;
+  color: #ffffff;
+}
+ #wcsp-clockdiv div > span {
+  padding: 14px;
+  border-radius: 50%;
+   background: #409970;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 32px;
+  box-shadow: 2px 2px 7px #3f3939;
+}
+span.wcsp-days,
+span.wcsp-hours,
+span.wcsp-minutes,
+span.wcsp-seconds {
+	text-shadow: 2px 2px 2px black;
+}
+
+ .wcsp-smalltext{
+	padding-top: 10px;
+	font-size: 16px;
+	color:#2a2626;
+	font-family:Helvetica, sans-serif;
+}
+
+
+
+
+/*===================================
+=            media-query            =
+===================================*/
+@media only screen and (max-width:768px) {
+#wcsp-wrapper {
+   background-color:#008060;
+  padding-bottom: 20px;
+  background-image: none;
+  height:auto;
+}
+.wcsp_first_heading {
+  color: #0b0c0c;
+   text-decoration:none;
+}
+.wcsp_para {
+  font-size: 50px;
+  color: #e1edec;
+  text-shadow: 2px 1px 1px black;
+  padding-bottom: 10px;
+}
+#wcsp-clockdiv div > span {
+  padding: 42px;
+  border-radius: 0%;
+
+}
+.wcsp_email {
+  border: 0;
+  padding: 10px 44px;
+  background: #409970;
+  box-shadow: 2px 2px 15px #2c3c35;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.wcsp_submit {
+  padding: 10px 65px;
+  background: #409970;
+  border: 0;
+  color: white;
+  font-weight: normal;
+  box-shadow: 2px 2px 23px #314b44;
+  margin-top: 10px;
+  border-radius: 0px;
+}
+ }
+
+/*=====  End of media-query  ======*/
